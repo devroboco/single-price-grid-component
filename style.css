@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Karla";
 }
 
 body {
@@ -14,30 +15,42 @@ body {
 .main {
   background-color: white;
   max-width: 635px;
-  padding: 48px;
   border-radius: 8px;
+}
+
+.section-1 {
+  padding: 40px;
 }
 
 .section-1 h1 {
   color: hsl(179, 62%, 43%);
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .section-1 h3 {
   color: hsl(71, 73%, 54%);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .section-1 p {
   color: hsl(218, 22%, 67%);
 }
 
-.section-2 {
+.group-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.section-2 {
+  padding: 20px;
 }
 
 .section-3 {
-  background-color: hsl(204, 43%, 93%);
+  background-color: red;
+  border-radius: 0px 0px 8px 0px;
+  padding: 20px;
 }
 
 /*
