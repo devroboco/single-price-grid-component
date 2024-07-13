@@ -39,22 +39,47 @@ body {
 .group-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: hsl(179, 62%, 43%);
-  border-radius: 0px 0px 8px 8px;
+  color: white;
 }
 
 .section-2 {
-  padding: 20px;
+  padding: 40px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 0px 8px;
 }
 
 .section-3 {
-  background-color: red;
+  background-color: hsl(179, 62%, 48%);
   border-radius: 0px 0px 8px 0px;
-  padding: 20px;
+  padding: 40px;
 }
 
-/*
-h3 {
- color: white;
+.section-3 p {
+  margin-top: 15px;
 }
-*/
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  padding: 12px 25px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0px 8px 0px;
+}
+
+.price p{
+  color: hsl(204, 43%, 93%);
+}
+
+.price h3 {
+  font-size: 28px;
+}
