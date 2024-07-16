@@ -16,6 +16,7 @@ body {
   background-color: white;
   max-width: 635px;
   border-radius: 8px;
+  margin: 0px 20px 0px 20px;
 }
 
 .section-1 {
@@ -82,4 +83,25 @@ body {
 
 .price h3 {
   font-size: 28px;
+}
+
+@media (max-width: 375px) {
+  .group-section {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .section-2 {
+    border-radius: 0px;
+  }
+  .section-3 {
+    border-radius: 0px 0px 4px 4px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .main {
+    border-radius: 4px;
+  }
 }
